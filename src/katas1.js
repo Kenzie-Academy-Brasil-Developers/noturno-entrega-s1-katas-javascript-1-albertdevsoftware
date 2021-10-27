@@ -74,8 +74,21 @@ function multiplosdecinco(numero){
 //.........................................................................................
 
 // Retornar todos os números até 100 que forem quadrados perfeitos. (1, 4, 9, …, 81, 100)
-// Mostra resultado
-// Fim
+function quadradosperfeitos(){
+
+    let meuRetorno = [];
+  
+        for (let counter = 1;counter <= 10;counter++){
+            meuRetorno.push(counter*counter);
+        }
+    
+        return meuRetorno;
+    }
+  // Mostra resultado
+        console.log(quadradosperfeitos());
+  
+  // Fim
+
 
 //.........................................................................................
 
@@ -149,7 +162,19 @@ function multiplosdecinco(){
 //.........................................................................................     
 
 // Retornar os quadrados perfeitos contando de trás para frente a partir de 100. (100, 81, 64, …, 4, 1)
-// Mostra resultado 
-// Fim
+function quadradosperfeitos(){
 
+    let meuRetorno = [];
+  
+        for (let counter = 10;counter >= 1;counter--){
+            meuRetorno.push(counter*counter);
+        }
+    
+        return meuRetorno;
+    }
+  // Mostra resultado
+        console.log(quadradosperfeitos());
+  
+  // Fim
+  
 //.........................................................................................    
